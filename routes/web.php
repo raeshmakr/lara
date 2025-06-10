@@ -29,6 +29,8 @@ Route::middleware('auth')->group(function () {
 
 Route::middleware('auth')->group(function () {
     Route::get('/products', [ProductController::class, 'indexWeb'])->name('products.index');
+    
+Route::resource('products', ProductController::class);
 });
 
 Auth::routes();

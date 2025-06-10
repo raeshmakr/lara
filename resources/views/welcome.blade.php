@@ -8,10 +8,10 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-gray-100 text-gray-900 antialiased font-sans">
-    <div class="min-h-screen flex flex-col justify-center items-center">
-        <h1 class="text-5xl font-bold mb-6">Welcome to Lara App</h1>
+    <div class="min-h-screen flex flex-col justify-center items-center" style="background-image:url('{{ asset('images/5630939.jpg') }}'); ">
+        <h1 class="text-5xl font-bold mb-6" style="color:#fff">Welcome to Lara App</h1>
         <p class="text-lg text-gray-600">Built with Passion</p>
-        <a href="{{ url('/dashboard') }}" class="mt-6 px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700">Go to Dashboard</a>
+        <a href="{{ url('/login') }}" class="mt-6 px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700">Go to Dashboard</a>
     </div>
 </body>
 </html>

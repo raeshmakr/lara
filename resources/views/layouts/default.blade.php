@@ -294,11 +294,10 @@
                 </ul>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="/products" class="nav-link">
                   <i class="nav-icon bi bi-clipboard-fill"></i>
                   <p>
                     Products
-                    <i class="nav-arrow bi bi-chevron-right"></i>
                   </p>
                 </a>
               </li>
@@ -323,7 +322,7 @@
         <!--end::To the end-->
         <!--begin::Copyright-->
         <strong>
-          Copyright &copy; 2014-2025&nbsp;
+          Copyright &copy; 2025-2026&nbsp;
           <a href="https://adminlte.io" class="text-decoration-none">DlearningAI</a>.
         </strong>
         All rights reserved.

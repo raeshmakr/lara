@@ -30,4 +30,4 @@ Route::group(['middleware' => ['auth:api']], function () {
     
     Route::post('/products/store', [ProductController::class, 'store']);
 });
-//Route::apiResource('products', ProductController::class)->middleware('auth:api');
+Route::apiResource('products', ProductController::class)->middleware('auth:api');
